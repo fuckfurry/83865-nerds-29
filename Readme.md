@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Лёха Карпекин](https://up.htmlacademy.ru/htmlcss/29/user/83865).
-* Наставник: [Мария Коршунова]
+* Наставник: [Мария Коршунова] (https://htmlacademy.ru/profile/masha_mk)
 
 ---
 
