@@ -1,0 +1,264 @@
+/* Variables */
+:root {
+--basic-black: #000000;
+--basic-grey: #A6A6A6;
+--basic-red: #FB565A;
+--basic-green: #00CA74;
+--basic-yellow: #EFC84A;
+--basic-yellow2: #EAB534;
+--basic-yellow3: #E5A722;
+--basic-neutral: #E1E1E1;
+--basic-white: #FFFFFF;
+--basic-dark: #4D4D4D;
+--basic-light-grey: #EEEEEE;
+--basic-darken: #888888;
+--basic-red2: #E74246;
+--basic-red3: #D7373B;
+--basic-green2:  #00BC6C;
+--basic-green3: #00AA62;
+--basic-dark-shade-grey: #666666;
+
+
+
+
+}
+/* Global*/
+
+body {
+min-width: 1440;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    color: var(--basic-black);
+    text-transform: uppercase;
+    background-color: var(--basic-light-grey);
+}
+
+.page a {
+
+    text-decoration: none;
+}
+img {
+
+    max-width: 100%;
+    height: auto;
+}
+/* Main navigation */
+.main-navigation-wrapper {
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--basic-black);
+}
+
+.site-navigation {
+    list-style: none;
+
+
+}
+
+/* User navigation */
+.site-navigation a,
+.basket {
+  color: var(--basic-black);
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus,
+.basket:hover,
+.basket:focus {
+color: var(--basic-red);
+}
+.site-navigation a:active,
+.basket:active {
+mix-blend-mode: normal;
+opacity: 0.3;
+}
+
+/* MAIN*/
+.title {
+width: 538px;
+height: 111px;
+left: 140px;
+top: 192px;
+font-weight: 500;
+font-size: 55px;
+line-height: 55px;
+}
+.subtitle {
+font-size: 16px;
+line-height: 24px;
+}
+/* main-button*/
+.main-button {
+    font: inherit;
+    background: #FB565A;
+    width: 240px;
+    height: 50px;
+    color: var(--basic-white);
+    border: none;
+    border-radius: 3px;
+}
+
+.main-button:hover,
+.main-button:focus {
+background-color: var(--basic-red2);
+
+}
+.main-button:active {
+color: var(--basic-red3);
+}
+
+.main-picture {
+
+}
+/* Service*/
+
+.service {
+list-style: none;
+font-size: 24px;
+line-height: 30px;
+}
+.service-list {
+font-size: 16px;
+line-height: 24px;
+}
+/*Service-button*/
+.button-1 {
+font: inherit;
+background: #FB565A;
+width: 240px;
+height: 50px;
+color: var(--basic-white);
+border: none;
+border-radius: 3px;
+
+}
+.button-1:hover,
+.button-1:focus {
+background-color: var(--basic-red);
+
+}
+.button-1:active {
+color: var(--basic-red3);
+}
+.button-2 {
+font: inherit;
+background: #FB565A;
+width: 240px;
+height: 50px;
+color: var(--basic-white);
+background-color: var(--basic-green);
+border: none;
+border-radius: 3px;
+}
+.button-2:hover,
+.button-2:focus {
+background-color: var(--basic-green2);
+}
+.button-2:active {
+color: var(--basic-green3);
+}
+
+.button-3 {
+font: inherit;
+background: #FB565A;
+width: 240px;
+height: 50px;
+color: var(--basic-white);
+background-color: var(--basic-yellow);
+border: none;
+border-radius: 3px;
+}
+.button-3:hover,
+.button-3:focus {
+background-color: var(--basic-yellow2);
+}
+.button-3:active {
+color: var(--basic-yellow3);
+}
+
+/* Section */
+
+.heading {
+font-size: 45px;
+line-height: 45px;
+}
+.subheading {
+font-size: 16px;
+line-height: 24px;
+}
+.section-title {
+font-size: 16px;
+line-height: 24px;
+}
+.section-list {
+list-style: none;
+font-size: 16px;
+line-height: 24px;
+}
+
+/* Article*/
+.caption {
+font-size: 16px;
+line-height: 24px;
+text-transform: uppercase;
+}
+.headline {
+font-size: 45px;
+line-height: 64px;
+}
+.subheadline {
+font-size: 16px;
+line-height: 18px;
+}
+/*Socials-logo*/
+
+
+/* FOOTER */
+.main-title {
+font-size: 18px;
+line-height: 30px;
+text-transform: uppercase;
+}
+.footer-address,
+.contacts-phone {
+font-size: 16px;
+line-height: 18px;
+color: var(--basic-dark-shade-grey);
+}
+
+/* footer-button */
+.footer-button {
+font: inherit;
+background: #FB565A;
+width: 240px;
+height: 50px;
+color: var(--basic-white);
+background-color: var(--basic-red);
+border: none;
+border-radius: 3px;
+}
+.footer-button:hover,
+.footer-button:focus {
+    background-color: var(--basic-red2);
+}
+.footer-button:active {
+    color: var(--basic-red3);
+}
+/* Footer-social*/
+.footer-title {
+font-weight: bold;
+font-size: 36px;
+line-height: 36px;
+}
+.footer-subtitle {
+font-size: 16px;
+line-height: 22px;
+}
+/* Footer-socials*/
+.social {
+list-style: none;
+}
