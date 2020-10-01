@@ -26,14 +26,18 @@
 
 .page-body {
 min-width: 1440px;
-    margin: 0;
-    padding: 0;
-    font-family: Roboto, Arial, sans-serif;
-    font-size: 14px;
-    line-height: 24px;
-    font-weight: 500;
-    color: var(--basic-black);
-
+margin: 0;
+padding: 0;
+font-family: Roboto, Arial, sans-serif;
+font-size: 14px;
+line-height: 24px;
+font-weight: 500;
+color: var(--basic-black);
+}
+.main-header,
+.basket,
+.slide1 {
+    background-color: var(--basic-light-grey);
 }
 
 .page a {
@@ -54,10 +58,11 @@ img {
 
 .site-navigation {
     list-style: none;
-
-
+    text-transform: uppercase;
 }
-
+.basket {
+    text-transform: uppercase;
+}
 /* User navigation */
 .site-navigation a,
 .basket {
@@ -77,6 +82,11 @@ opacity: 0.3;
 }
 
 /* MAIN*/
+.slide1 {
+    background-color: var(--basic-light-grey);
+}
+
+}
 .title {
 left: 140px;
 top: 192px;
@@ -87,6 +97,7 @@ line-height: 55px;
 .subtitle {
 font-size: 16px;
 line-height: 24px;
+font-weight: normal;
 }
 /* main-button*/
 .main-button {
@@ -128,6 +139,9 @@ color: var(--basic-white);
 border: none;
 border-radius: 3px;
 
+}
+.lead {
+    text-transform: uppercase;
 }
 .button-1:hover,
 .button-1:focus {
@@ -182,6 +196,7 @@ line-height: 24px;
 .about-title {
 font-size: 16px;
 line-height: 24px;
+text-transform: uppercase;
 }
 .about-list {
 list-style: none;
