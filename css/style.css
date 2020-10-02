@@ -17,7 +17,8 @@
 --basic-green2:  #00BC6C;
 --basic-green3: #00AA62;
 --basic-dark-shade-grey: #666666;
-
+--basic-blue-blue: #283136;
+--basic-medium-grey: #444444;
 
 
 
@@ -131,6 +132,16 @@ line-height: 30px;
 font-size: 16px;
 line-height: 24px;
 }
+.lead {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+}
+.tagline {
+    color: var(--basic-blue-blue);
+    font-weight: normal;
+}
 /*Service-button*/
 .button-1 {
 font: inherit;
@@ -138,10 +149,8 @@ background: #FB565A;
 color: var(--basic-white);
 border: none;
 border-radius: 3px;
+text-transform: uppercase;
 
-}
-.lead {
-    text-transform: uppercase;
 }
 .button-1:hover,
 .button-1:focus {
@@ -158,6 +167,7 @@ color: var(--basic-white);
 background-color: var(--basic-green);
 border: none;
 border-radius: 3px;
+text-transform: uppercase;
 }
 .button-2:hover,
 .button-2:focus {
@@ -174,6 +184,7 @@ color: var(--basic-white);
 background-color: var(--basic-yellow);
 border: none;
 border-radius: 3px;
+text-transform: uppercase;
 }
 .button-3:hover,
 .button-3:focus {
@@ -192,16 +203,22 @@ line-height: 45px;
 .subheading {
 font-size: 16px;
 line-height: 24px;
+font-weight: normal;
+color: var(--basic-blue-blue);
 }
 .about-title {
 font-size: 16px;
 line-height: 24px;
 text-transform: uppercase;
+font-weight: bold;
+color: var(--basic-blue-blue);
 }
 .about-list {
 list-style: none;
 font-size: 16px;
 line-height: 24px;
+font-weight: normal;
+color: var(--basic-blue-blue);
 }
 
 /* Article*/
@@ -214,10 +231,13 @@ font-weight: 700;
 .headline {
 font-size: 45px;
 line-height: 64px;
+font-weight: bold;
 }
 .subheadline {
 font-size: 16px;
 line-height: 18px;
+font-weight: normal;
+color: var(--basic-blue-blue);
 }
 /*partners-logo*/
 
@@ -227,10 +247,12 @@ line-height: 18px;
 font-size: 18px;
 line-height: 30px;
 text-transform: uppercase;
+font-weight: bold;
 }
 .footer-address {
 font-size: 16px;
 line-height: 18px;
+font-weight: normal;
 color: var(--basic-dark-shade-grey);
 }
 
@@ -259,6 +281,8 @@ line-height: 36px;
 .footer-subtitle {
 font-size: 16px;
 line-height: 22px;
+font-weight: normal;
+color: var(--basic-medium-grey);
 }
 /* Footer-socials*/
 .social {
