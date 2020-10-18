@@ -255,6 +255,11 @@ line-height: 18px;
 font-weight: normal;
 color: var(--basic-dark-shade-grey);
 }
+.map-marker {
+    left: 822px;
+top: 1929px;
+}
+
 
 /* footer-button */
 .footer-button {
